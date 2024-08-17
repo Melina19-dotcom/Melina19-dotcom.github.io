@@ -1,0 +1,60 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  .container1{
+    border: none;
+    text-align: center;
+    margin: auto;
+    padding-right:100px;
+  }
+  .presentacion{
+    border-radius: 20px;
+    border:4px solid yellow;
+    background-color: #ff5722;
+    padding: 10px 20px;
+    margin:40px auto; 
+    height: 100px;
+    width: 300px;
+  }
+  .mensaje{
+    height: 20px;
+    width: 240px;
+    border-radius: 10px;
+  }
+  .titulo{
+    color:white;
+    font-size: 40px;
+    margin:20px 0;
+    font-family: "indie flower";
+  }
+  .header {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px, solid, black; 
+  }
+  p{
+    color: blueviolet;
+    font-size: 20px;
+    text-align: center;
+  }
+  .clave{
+    height: 100px;
+    width: 300px;
+    border: 1px solid transparent;
+    text-align: center;
+  }
+  
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  footer p {
+    font-size: 1em;
+  }
