@@ -1,6 +1,8 @@
 function descifrado_cifrado(texto, desplazamiento, acción){
     const abecedario = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     let resultado = '';
+    desplazamiento = desplazamiento % abecedario.length;
+
 
     for (let i=0; i < texto.length; i++){
         const letraActual = texto[i].toUpperCase();
