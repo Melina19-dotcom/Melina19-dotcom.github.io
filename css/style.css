@@ -3,11 +3,28 @@ html {
     width: 100%;
   }
   .container1{
-    border: none;
+    /*border: none;
     text-align: center;
     margin: auto;
     padding-right:100px;
+    display: flex;
+    justify-content: center;
+    */
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+    justify-content: center;
   }
+
+  .container2{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+    justify-content: center;
+  }
+
   .presentacion{
     border-radius: 20px;
     border:4px solid yellow;
@@ -58,3 +75,28 @@ html {
   footer p {
     font-size: 1em;
   }
+  textarea{
+    resize: none;
+  }
+
+.contenido1{
+  width: 500px;
+  height: 200px;
+  margin:auto;
+  border-radius: 40px;
+  border: 4px solid rgb(184, 184, 241);
+}
+
+.contenido2{
+  width: 500px;
+  height: 40px;
+  margin: auto;
+  border-radius: 20px;
+  border: 4px solid rgb(184, 184, 241);
+  background-color: 
+}
+
+.boton{
+  margin: auto;
+  justify-content: center;
+}

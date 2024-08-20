@@ -11,19 +11,17 @@
         <h1 class="titulo">CÓDIGO ENIGMA</h1>
     </header>
     
-    <div container1>
+    <div class="container1">
         <p>Mensaje Secreto</p>
-        <textarea name="mensaje" id="mensaje" maxlength="200" placeholder="Escribe tu mensaje secreto">
+        <textarea class="contenido1" name="mensaje" id="mensaje" maxlength="200" placeholder="Escribe tu mensaje secreto">
         </textarea>
-        <input id="desplazamiento" type="number" placeholder="Escribe el desplazamiento">
+    </div>
+        <br>
+    <div class="container2">
+        <p>Escribe tu clave secreta</p>
+        <input id="desplazamiento" class="contenido2" type="number" placeholder="Escribe tu clave secreta"></input>
     </div>
         
-    </div>
-      <div class="clave">
-        <p>Clave Secreta</p>
-        <input type="number" placeholder="Ingresa tu clave secreta" class="clave-secreta">
-    </div>
-
     <div class="botones">
         <button class="boton" id="cifrar" type="button">Cifrar</button>
         <button class="boton" id="descifrar" type="button">Descifrar</button>
@@ -34,5 +32,8 @@
     <script src="js/script.js" type="module"></script>
     <script src="js/cifrado.js" type="module"></script>
     
+    <footer>
+        <p>© Todos los derechos reservados</p>
+    </footer>
 </body>
 </html>
