@@ -25,15 +25,6 @@ html {
     justify-content: center;
   }
 
-  .presentacion{
-    border-radius: 20px;
-    border:4px solid yellow;
-    background-color: #ff5722;
-    padding: 10px 20px;
-    margin:40px auto; 
-    height: 100px;
-    width: 300px;
-  }
   .mensaje{
     height: 20px;
     width: 240px;
