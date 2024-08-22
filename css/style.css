@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 html {
     height: 100%;
     width: 100%;
@@ -34,7 +36,7 @@ html {
     color:white;
     font-size: 40px;
     margin:20px 0;
-    font-family: "indie flower";
+    font-family: "DM Serif Text";
   }
   .header {
     background-color: blue;
@@ -47,6 +49,7 @@ html {
     color: blueviolet;
     font-size: 20px;
     text-align: center;
+    font-family:"Nunito";
   }
   .clave{
     height: 100px;
@@ -62,12 +65,17 @@ html {
     padding: 20px;
     margin-top: 20px;
   }
-  
+  /*
   footer p {
     font-size: 1em;
   }
+    */
   textarea{
     resize: none;
+    background-color: rgb(88, 68, 68);
+    color: white;
+    border: 4px;
+    padding: 20px;
   }
 
 .contenido1{
@@ -83,11 +91,62 @@ html {
   height: 40px;
   margin: auto;
   border-radius: 20px;
-  border: 4px solid rgb(184, 184, 241);
-  background-color: 
+  border: 4px solid rgb(247, 247, 247);
+  background-color: rgb(88, 68, 68);
+  color: white; 
+  padding: 20px;
+}
+
+.botones{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  border-radius: 10px;
 }
 
 .boton{
-  margin: auto;
-  justify-content: center;
+  width: 100px;
+  border: 3px solid olivedrab;
+  border-radius: 10px;
+}
+
+.boton:hover{
+  background-color: rgb(144, 248, 248);
+  color:black;
+}
+
+body{
+  background-image: url("img/fondo.gif");
+}
+.modal{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modalContenido{
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  border: 4px solid rgb(196, 79, 98);
+  width: 80%;
+  text-align: center;
+}
+
+.close{
+  color: gray;
+  float: right;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.close:hover{
+  color:aquamarine;
+  text-decoration: none;
+  cursor: pointer;
 }
